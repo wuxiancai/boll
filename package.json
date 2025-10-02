@@ -1,0 +1,14 @@
+{
+  "name": "boll-scraper",
+  "version": "1.0.0",
+  "description": "实时爬取 Binance BTCUSDT 页面上的BOLL值并打印",
+  "main": "scrape-boll.js",
+  "scripts": {
+    "start": "node scrape-boll.js"
+  },
+  "dependencies": {
+    "puppeteer": "22.12.1",
+    "tesseract.js": "^4.0.3",
+    "pngjs": "^7.0.0"
+  }
+}
